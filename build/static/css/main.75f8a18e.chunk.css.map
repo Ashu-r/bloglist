@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,UACC,UAED,CAEA,mBAHC,WAKD","file":"main.75f8a18e.chunk.css","sourcesContent":[".loggedIn {\n\tcolor: white;\n\tpadding: 5px;\n}\n\n.padding {\n\tpadding: 5px;\n}\n"]}
