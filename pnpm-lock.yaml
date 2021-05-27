@@ -18,6 +18,7 @@ specifiers:
   mongoose: ^5.10.8
   mongoose-unique-validator: ^2.0.3
   nodemon: ^2.0.4
+  path: ^0.12.7
   prop-types: ^15.7.2
   supertest: ^5.0.0
 
@@ -32,6 +33,7 @@ dependencies:
   lodash: 4.17.21
   mongoose: 5.12.6
   mongoose-unique-validator: 2.0.3_mongoose@5.12.6
+  path: 0.12.7
   prop-types: 15.7.2
 
 devDependencies:
@@ -4386,6 +4388,13 @@ packages:
       pify: 2.3.0
     dev: true
 
+  /path/0.12.7:
+    resolution: {integrity: sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=}
+    dependencies:
+      process: 0.11.10
+      util: 0.10.4
+    dev: false
+
   /performance-now/2.1.0:
     resolution: {integrity: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=}
     dev: true
@@ -4453,6 +4462,11 @@ packages:
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
+    dev: false
+
+  /process/0.11.10:
+    resolution: {integrity: sha1-czIwDoQBYb2j5podHZGn1LwW8YI=}
+    engines: {node: '>= 0.6.0'}
     dev: false
 
   /progress/2.0.3:
@@ -5582,6 +5596,12 @@ packages:
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+
+  /util/0.10.4:
+    resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
+    dependencies:
+      inherits: 2.0.3
+    dev: false
 
   /utils-merge/1.0.1:
     resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}

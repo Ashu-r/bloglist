@@ -3,6 +3,7 @@ require('express-async-errors');
 
 const app = express();
 const cors = require('cors');
+const path = require('path');
 
 const mongoose = require('mongoose');
 const logger = require('./utils/logger');
@@ -27,7 +28,8 @@ mongoose
 		logger.error('error connecting to MongoDB', error.message);
 	});
 
-app.use(express.static('build'));
+app.use('/static', express.static(path.join(__dirname + '/public')));
+
 app.use(cors());
 app.use(express.json());
 app.use(middleware.requestLogger);
